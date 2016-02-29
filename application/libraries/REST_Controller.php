@@ -266,7 +266,7 @@ abstract class REST_Controller extends CI_Controller {
      *
      * @var string
      */
-    protected $_insert_id = '';
+    protected $_insert_id = 0;
 
     /**
      * If the request is allowed based on the API key provided
